@@ -1,7 +1,7 @@
 <script>
 	import Icon from '@iconify/svelte';
 </script>
-<div class="md:mx-0 mx-2  sm:max-w-[230px] bg-gray-800 max-h-[15.2rem] rounded flex flex-col items-center justify-between">
+<div class="md:mx-0 mx-2 w-full  sm:max-w-[230px] bg-gray-800 max-h-[15.2rem] rounded flex flex-col items-center justify-between">
 	<div class="w-full h-[6rem]">
 		<img class="w-full h-full object-cover rounded" src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Hello" />
 	</div>
