@@ -3,7 +3,7 @@
 	import CourseCard from '$lib/components/CourseCard.svelte'
 </script>
 
-<div class="container mx-auto w-full py-10 px-2 sm:px-0">
+<div class="container mx-auto w-full py-10 px-4 sm:px-0">
 	<div>
 		<div class="relative">
 		  <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -11,7 +11,7 @@
 		  </div>
 		  <input type="search" id="email-adress-icon" class="text-sm rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 p-2.5  bg-gray-800 border-gray-700 placeholder-gray-400 text-white" placeholder="Search Courses" />
 		</div>
-		<fieldset class="my-3 flex flex-col md:flex-row items-start md:items-center justify-between">
+		<fieldset class="my-4 flex flex-col md:flex-row items-start md:items-center justify-between">
 			<legend class="sr-only">Filter Options</legend>
 			<div class="flex-1 flex items-center space-x-4">
 				<div class="flex items-center">
