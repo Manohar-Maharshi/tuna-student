@@ -57,12 +57,13 @@
 			<h3 class="mb-3 text-xl font-semibold">Top Courses</h3>
 			<div>
 				<Swiper
+					spaceBetween={20}
 					slidesPerView={5}
 					breakpoints={breakpoints}
 				>
 					{#each Array(10) as _, index}
 				    	<SwiperSlide>
-				    		<CourseCard />
+				    		<CourseCard link={index} />
 				    	</SwiperSlide>
 					{/each}
 				</Swiper>
@@ -72,12 +73,13 @@
 			<h3 class="mb-3 text-xl font-semibold">Trending Courses</h3>
 			<div>
 				<Swiper
+					spaceBetween={20}
 					slidesPerView={5}
 					breakpoints={breakpoints}
 				>
 					{#each Array(10) as _, index}
 				    	<SwiperSlide>
-				    		<CourseCard />
+				    		<CourseCard link={index} />
 				    	</SwiperSlide>
 					{/each}
 				</Swiper>

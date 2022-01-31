@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
-body{
-	@apply bg-gray-900 text-gray-200;
+body {
+  @apply bg-gray-900 text-gray-200;
+}
+.svelte-tabs__tab-list {
+  @apply !border-0;
+}
+.svelte-tabs li.svelte-tabs__tab {
+  @apply text-gray-400 focus:outline-none;
+}
+.svelte-tabs li.svelte-tabs__selected {
+  @apply text-white;
 }
 @tailwind utilities;
